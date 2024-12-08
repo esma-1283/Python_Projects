@@ -87,8 +87,8 @@ Developed by Esma Tanşa
                     age_in_years = age_in_days / 365.25  
                     print(f"{i} is {age_in_years:.2f} years old.")
 
-                elif not control:
-                    print("There is no one registered with this name.")
+            if control:
+                print("There is no one registered with this name.")
 
         else:
             print("Please enter a valid input")
